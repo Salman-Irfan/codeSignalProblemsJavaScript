@@ -1,0 +1,1 @@
+const solution = (n) => n.toString().split('').map(Number).every((number) => number % 2 === 0);
